@@ -12,4 +12,14 @@
               >;
         };
     };
+
+    combos {
+        compatible = "zmk,combos";
+
+        bt_clear_combo {
+            timeout-ms =<5000>;
+            key-positions = <0 1>;
+            bindings =<&bt BT_CLR &sys_reset>;
+        };
+    };
 };
