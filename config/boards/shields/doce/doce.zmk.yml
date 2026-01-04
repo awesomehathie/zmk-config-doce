@@ -1,9 +1,0 @@
-file_format: "1"
-id: "doce"
-name: "doce"
-type: shield
-url: https://github.com/awesomehathie/zmk-config-doce
-requires: [nice_nano_v2]
-features:
-  - keys
-
