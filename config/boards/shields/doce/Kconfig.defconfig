@@ -1,0 +1,6 @@
+if SHIELD_DOCE
+
+config ZMK_KEYBOARD_NAME
+    default "doce"
+
+endif
